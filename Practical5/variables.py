@@ -18,3 +18,18 @@ else:
 #d>e Rob travelled further than on his previous international trip
 #By comparing the longitude distance, we found that Rob went farther to Los Angeles than he did to Haining,
 #and he did travel farther than he did on his last international trip.
+
+
+
+
+
+
+X=True
+Y=False
+W=X and Y
+Z=X or Y
+print("the values of W is",W)
+print("the values of Z is",Z)
+#the values of W is False
+#the values of Z is True
+
