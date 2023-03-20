@@ -1,22 +1,38 @@
 #Function: hexagons
-#    Every number of the sequence of hexagons can be viewed as the sum of several elements.
-#    Numerical serial number
-n = 1
+#Use the for loop to output the values we need in turn.
+#Use the range function to determine our output range
+#use the the formula for the nth hexagonal number
+#Output sequence
+
+
+h = 1
 for n in range(1,6):
+ h = 2*n*(2*n-1)*0.5
+ print("The",n,"st hexagon number is",h)
+
+
+
+
+
+
+
+
+
+#Another method:
+#    Every number of the sequence of hexagons can be viewed as the sum of several elements.
 #    Number of elements
-     number_elements = n
-#    The difference between elements
-     differ_elements = 4
-     value_elements = 1
-     value_tria = 1
-#    The value of each element
-     while  number_elements != 1:
-         value_elements = value_elements + differ_elements
-         number_elements = number_elements-1
-#    the values of the triangle sequence
-         value_tria = value_tria + value_elements 
-#    Output sequence
-     print("The",n,"st hexagon number is",value_tria)
+#n = 1
+#for n in range(1,6):
+#     number_elements = n	#    Numerical serial number
+#     differ_elements = 4	#    The difference between elements
+#     value_elements = 1
+#     value_tria = 1
+#     The value of each element
+#     while  number_elements != 1:
+#         value_elements = value_elements + differ_elements
+#         number_elements = number_elements-1
+#         value_tria = value_tria + value_elements	#    the values of the triangle sequence
+#     print("The",n,"st hexagon number is",value_tria)
 
 
 
