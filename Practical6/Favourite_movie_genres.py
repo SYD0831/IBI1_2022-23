@@ -6,6 +6,7 @@
 
 #use input() to gain the opinion of the user
 #Link to the corresponding value through the dictionary
+#print the output
 
 Favourite_movie_genres = {'Comedy':73, 'Action':42, 'Romance':38,
                           'Fantasy':28, 'Science-fiction':22, 'Horror':19, 'Crime':18, 'Documentary':12,
