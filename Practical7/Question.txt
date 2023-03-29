@@ -1,0 +1,7 @@
+Question 1 : 
+How have new cases and total cases developed over time in the UK?
+solution line number in covid.py： 107-122
+Conclusion:
+Since March 16, the number of new infections has gradually increased, and the total number of infections has increased exponentially
+
+

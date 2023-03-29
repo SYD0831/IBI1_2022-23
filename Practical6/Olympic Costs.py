@@ -1,5 +1,5 @@
 #You need to enter your cost here
-#you can change the variable number_list
+#you can change the variable number_list without same costs
 cost = [1,8,15,7,5,14,43,40]
 number_list = cost
 
@@ -24,6 +24,11 @@ place = ['Los Angeles 1984', 'Seoul 1988', 'Barcelona 1992', 'Atlanta 1996', 'Sy
 # Display the plot
 
 my_dict = dict(zip(number_list, place))
+my_dict_rev = dict(zip(place,number_list))
+
+#print(my_dict)
+#print("Second option")
+#print(my_dict_rev)
 labels = []
 number_list.sort()
 for i in number_list:

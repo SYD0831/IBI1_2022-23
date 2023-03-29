@@ -1,0 +1,41 @@
+Question 1 : solution line number in covid.py 7
+`covid_data.head(5)`       What does the number 5 do? Change it to find out!
+Conclusion: to read the head 5 line of the dataframe
+
+Question 2 : solution line number in covid.py 8
+What type are the data points in covid_data? What are the columns called? How many rows are there?
+Conclusion:the first two columns are 'object' the last four columns are 'int64'; the name of columns  are 'data', 'location', 'new_cases', 'new_deaths', 'total_cases', 'tatal_deaths'; there are 7996 rows in the dataframe 
+
+Question 3 : solution line number in covid.py 9
+What was the mean of new cases (across all rows of the dataframe)? What is the standard deviation? What is the range of total cases (minimum and maximum)?
+Conclusion: the mean of new cases is 194.546773; the standard deviation is 2083.395028; minimum and maximum are -9.000000 and 65162.000000
+
+Question 4 : solution line number in covid.py 14 to 15
+How would you show the second column from every 100th row from the first 1000 rows
+Conclusion:   a = covid_data.iloc[100:1001:100,2]      print(a)
+
+Question 5 : solution line number in covid.py 16-17
+What happens if my_columns is shorter than the number of columns of your data frame? What happens if it’s longer?
+Conclusion:    shorter:IndexError: Boolean index has wrong length: 5 instead of 6
+               longer:IndexError: Boolean index has wrong length: 7 instead of 6
+
+Question 6 : solution line number in covid.py 20-33
+how do you find every row where the location is “Afghanistan”?
+Conclusion:
+
+Question 7 : solution line number in covid.py 36-45
+For instance, what can we learn from looking at new cases and deaths on the last day for which data was recorded, 31 March 2020?
+Conclusion:
+
+Question 8 : solution line number in covid.py 48-55
+Use numpy to compute the mean new cases and new deaths on this date. Are they similar or different? What does that tell you? What is the proportion of new deaths as a proportion
+of the new cases on 31 March
+Conclusion: mean:new_cases     640.461538      new_deaths     37.928205 they are different. the proportion of new deaths as a proportion is 0.05922011370005605
+
+Question 9 : solution line number in covid.py 
+Plot the new cases and new deaths on 31 March as two separate box plots
+Conclusion:
+
+Question 6 : solution line number in covid.py 
+
+Conclusion:
