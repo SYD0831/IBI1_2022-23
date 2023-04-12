@@ -20,8 +20,5 @@ with open(input_file, "r") as file_in, open(output_file, "w") as file_out:
             sequence = ""
         else:
             sequence += line.strip()
-    if sequence and sequence.endswith(stop_name):
-        file_out.write(header + "\n" + sequence + "\n")
-
-
-
+    if sequence and re.findall(stop_name,sequence):
+        file_out.write(header + " the number of coding sequences is :" + str(sequence.count(stop_name)) +"\n" + sequence + "\n")
