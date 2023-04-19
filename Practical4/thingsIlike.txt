@@ -11,3 +11,5 @@ I like going to bed
 I like playing basketball
 I like Linux
 I like R
+I like Linux
+I like Ball
