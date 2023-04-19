@@ -3,6 +3,6 @@ However, I think the guidance should be improved because it creates a lot of mis
 In addition, I have a question when I want to change the theme of my website (I have set the midnight theme),
 I changed the content in config.yml but it didn't work.
 Please help me. 
-Thank you.
+Thank you!
 
 
