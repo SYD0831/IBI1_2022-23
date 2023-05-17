@@ -18,3 +18,5 @@ print("the",generation_out,"st genoration has more than 100 rabbits")
 
 #the result of these codes :the 7 st genoration has more than 100 rabbits
 
+
+
