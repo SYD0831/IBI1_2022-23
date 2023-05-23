@@ -1,0 +1,8 @@
+the percentage of identical amino acids for human and cat is 0.8522
+the alignment score of human and cat is 3717
+the percentage of identical amino acids for human and mouse is 0.8211
+the alignment score of human and mouse is 3579
+the percentage of identical amino acids for mouse and cat is 0.8174
+the alignment score of mouse and cat is 3592
+human and cat's sequences are most closely related
+Analysis: The high percentage of identical amino acids (0.8522) between humans and cats indicates a significant degree of evolutionary conservation between the two species. This conservation suggests that these species share a common ancestor and have diverged relatively recently in evolutionary time. The fact that the percentage does not indeed indicate that there have been some changes in the amino acid sequences of proteins over time due to mutations and natural selection. These changes may have resulted in functional differences between the proteins in humans and cats, which could explain some physiological and behavioral differences between the two species.
