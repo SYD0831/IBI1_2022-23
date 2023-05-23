@@ -65,5 +65,5 @@ for term in terms:
         row_num += 1
 
 # Save the workbook
-workbook.save('go_terms.xlsx')
+workbook.save('autophagosome.xlsx')
 
